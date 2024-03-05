@@ -33,3 +33,18 @@ header, footer, main {
 .fluid-page {
   max-width: 100%;
 }
+
+.food-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-item {
+  flex-basis: calc(50% - 10px); /* Adjust as needed */
+  text-align: center;
+}
+
+.food-item img {
+  width: 100%;
+  height: auto;
+}
