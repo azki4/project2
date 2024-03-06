@@ -41,7 +41,7 @@ header, footer, main {
 
 .food-item img {
   width: 200%;
-  height: auto;
+  height: 200;
   max-height: 250px;
 }
 
