@@ -40,9 +40,11 @@ header, footer, main {
 }
 
 .food-item {
-  flex-basis: calc(50% - 10px); /* Adjust as needed */
+  flex-basis: calc(50% - 10px);
   text-align: center;
+  margin: 10px;
 }
+
 
 .food-item img {
   width: 100%;
