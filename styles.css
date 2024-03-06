@@ -45,7 +45,7 @@ header, footer, main {
   max-height: 250px;
   flex-basis: calc(50% - 10px);
   text-align: center;
-  margin: 5px
+  margin: 3px
 }
 
 .graphic-design {
