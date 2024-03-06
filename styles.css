@@ -40,7 +40,7 @@ header, footer, main {
 }
 
 .food-item img {
-  width: 100%;
+  width: 50%;
   height: auto;
   max-height: 300px;
 }
