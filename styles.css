@@ -34,11 +34,6 @@ header, footer, main {
   max-width: 100%;
 }
 
-.food-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .food-item img {
   width: 100%;
   height: auto;
