@@ -32,6 +32,7 @@ header, footer, main {
 
 .food-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .fluid-page {
