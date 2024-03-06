@@ -43,7 +43,6 @@ header, footer, main {
   height: auto;
   max-height: 250px;
   flex-basis: calc(50% - 10px);
-  text-align: center;
   margin: 12px
 }
 
