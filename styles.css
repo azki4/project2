@@ -40,9 +40,9 @@ header, footer, main {
 }
 
 .food-item img {
-  width: 200%;
-  height: 200;
-  max-height: 250px;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
 }
 
 .graphic-design {
