@@ -42,7 +42,7 @@ header, footer, main {
 .food-item img {
   width: 100%;
   height: auto;
-  max-height: 250px;
+  max-height: 200px;
 }
 
 .graphic-design {
