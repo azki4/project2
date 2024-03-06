@@ -40,11 +40,11 @@ header, footer, main {
 }
 
 .food-item img {
-  width: 200%;
+  width: 100%;
   height: auto;
-  max-height: 200px;
+  max-height: 250px;
 }
 
 .graphic-design {
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
