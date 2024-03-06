@@ -30,6 +30,10 @@ header, footer, main {
   max-width: 60em;
 }
 
+.food-container {
+  display: flex;
+}
+
 .fluid-page {
   max-width: 100%;
 }
