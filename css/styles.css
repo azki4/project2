@@ -1,5 +1,5 @@
 /* CSS */
-h1, h2, h3, {
+h1, h2, h3 {
   font-family: 'Roboto', 'Times New Roman';
   color: black;
   margin-bottom: 20px;
