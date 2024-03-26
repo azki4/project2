@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* CSS */
 body {
   font-family: 'Roboto', 'Times New Roman';
   font-size: 1rem;
@@ -16,13 +8,8 @@ body {
   text-align: center; /* Center the text */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', 'Times New Roman';
-}
-
-/* CSS */
 nav {
-  background-color: #FF77AA;
+  background-color: #EE82EE; /* Different color for the nav bar */
 }
 
 nav ul {
@@ -42,32 +29,16 @@ nav a {
   font-size: 1.2em;
 }
 
-header, footer, main {
-  margin: 0 auto; /* Center block elements */
+main {
   max-width: 60em;
+  margin: 0 auto; /* Center block elements */
   text-align: center; /* Center the text */
 }
-}
 
-.food-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.fluid-page {
-  max-width: 100%;
-}
-
-.food-item img {
-  width: 100%;
-  height: auto;
-  max-height: 250px;
-  flex-basis: calc(50% - 10px);
-  text-align: center;
-  margin: 12px
-}
-
-.graphic-design {
-  margin-top: 20px;
+.content-box {
+  background-color: #FFC0CB; /* Different color for the content box */
+  padding: 1em;
+  margin: 1em auto; /* Center the content box */
+  max-width: 80%; /* Set a max-width for the content box */
 }
 
