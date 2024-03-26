@@ -22,7 +22,7 @@ body {
   font-family: 'Roboto', 'Times New Roman';
   font-size: 1em;
   line-height: 1.6;
-  background-color: white;
+  background-color: black;
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -68,6 +68,6 @@ section {
 
 footer {
   text-align: center;
-  margin-bottom: 1.56em;
+  margin-bottom: 1.75em;
 }
 
