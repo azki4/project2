@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* CSS */
-h1, h2, h3, li {
+h1, h2, h3, {
   font-family: 'Roboto', 'Times New Roman';
   color: black;
   margin-bottom: 2em;
@@ -9,6 +9,7 @@ h1, h2, h3, li {
 }
 
 li {
+  font-family: 'Roboto', 'Times New Roman';
   text-align: center;
 }
 
