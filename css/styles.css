@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* CSS */
+h1, h2, h3, h4, li {
+  font-family: 'Roboto', 'Times New Roman';
+  margin-bottom: 1em;
+  padding: 0.1em;
+}
+
+li {
+    text-align: left;
+}
+
 body {
   font-family: 'Roboto', 'Times New Roman';
   font-size: 1rem;
@@ -19,8 +29,15 @@ body {
   position: relative; /* Position to achieve page layout */
 }
 
+main {
+  max-width: 60em;
+  margin: 0 auto; /* Center block elements */
+  text-align: center; /* Center the text */
+  position: relative; /* Position to achieve page layout */
+}
+
 nav {
-  background-color: #EE82EE; /* Different color for the nav bar */
+  background-color: #9370db; /* Different color for the nav bar */
   width: 100%;
 }
 
@@ -32,22 +49,13 @@ nav ul {
   float: left; /* Float to achieve horizontal alignment */
 }
 
-nav ul li {
-  margin: 0 1em;
-}
 
-nav a {
+nav ul li a {
   color: white;
   text-decoration: none; /* Remove underline */
   font-size: 1.2em;
 }
 
-main {
-  max-width: 60em;
-  margin: 0 auto; /* Center block elements */
-  text-align: center; /* Center the text */
-  position: relative; /* Position to achieve page layout */
-}
 
 .content-box {
   background-color: #FFC0CB; /* Different color for the content box */
