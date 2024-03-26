@@ -20,16 +20,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', 'Times New Roman';
 }
 
+/* CSS */
 nav {
-  text-align: center;
-  margin: 2em 0;
+  background-color: #FF77AA;
 }
 
 nav ul {
-  list-style-type: none; 
+  list-style-type: none;
   padding: 0;
-  display: flex; /* Added display */
-  justify-content: center; /* Added justify-content */
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
@@ -37,7 +37,9 @@ nav ul li {
 }
 
 nav a {
-  text-decoration: none; /* Removed underline */
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
 header, footer, main {
