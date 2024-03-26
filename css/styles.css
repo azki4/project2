@@ -36,11 +36,13 @@ nav ul {
   float: left; /* Float to achieve horizontal alignment */
 }
 
+na ul li {
+  display: inline;
 
 nav ul li a {
   color: white;
   text-decoration: none; /* Remove underline */
-  display: inline
+  display: inline-block;
   padding: 1em 2em;
 }
 
