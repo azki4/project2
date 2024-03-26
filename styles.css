@@ -8,15 +8,15 @@
 }
 
 body {
-  font-family: 'Roboto', 'Arial', sans-serif; /* Added a specific font as backup */
+  font-family: 'Roboto', 'Times New Roman'; /* Added a specific font as backup */
   font-size: 1rem;
   line-height: 1.6;
   color: #333; /* Added color */
-  background-color: #f5f5f5; /* Added background-color */
+  background-color: #FF77AA; /* Added background-color */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', 'Times New Roman';
 }
 
 nav {
@@ -27,12 +27,12 @@ nav {
 nav ul {
   list-style-type: none; 
   padding: 0;
+  display: flex; /* Added display */
+  justify-content: center; /* Added justify-content */
 }
 
 nav ul li {
-  display: inline;
   margin: 0 1em;
-  float: left; /* Added float */
 }
 
 nav a {
@@ -65,3 +65,4 @@ header, footer, main {
 .graphic-design {
   margin-top: 20px;
 }
+
