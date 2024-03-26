@@ -3,7 +3,7 @@
 /* CSS */
 h1, h2, h3, li {
   font-family: 'Roboto', 'Times New Roman';
-  color: gray
+  color: black;
   margin-bottom: 2em;
   padding: 0.1em;
 }
@@ -61,8 +61,8 @@ section {
   color: white;
 }
 
-education ul {
-  margin-bottom: 20px; /* Adjust this value as per your needs */
+experience ul {
+  margin-bottom: 20px;
 }
 
 footer {
