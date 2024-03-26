@@ -21,7 +21,6 @@ body {
   font-size: 1em;
   line-height: 1.6;
   background-color: white;
-  max-width: 60em;
   margin: 0 auto; /* Center block elements */
   text-align: center; /* Center the text */
   position: relative; /* Position to achieve page layout */
