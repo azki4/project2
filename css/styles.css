@@ -8,7 +8,11 @@ h1, h2, h3, h4, li {
 }
 
 li {
-  text-align: left;
+  text-align: center;
+}
+
+body {
+  text-align: center;
 }
 
 .resume-body {
@@ -24,27 +28,31 @@ li {
 
 
 nav {
-  text-align: center;
-  background-color: #5c005c;
-  margin-bottom: 2em
+	text-align: center;
 }
-
-nav ul {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0;
-  justify-content: space-around;
-  float: left; /* Float to achieve horizontal alignment */
+nav{
+	background-color: hotpink;
+	margin-bottom: 2em;
 }
-
-na ul li {
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
   display: inline;
-
+}
+  
 nav ul li a {
-  color: white;
-  text-decoration: none; /* Remove underline */
   display: inline-block;
+  color: white;
+  text-decoration: none;
   padding: 1em 2em;
 }
+nav ul li a:hover {
+  background-color: pink;
+}
+
 
 section {
   background-color: #c57fc5;
