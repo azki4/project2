@@ -8,11 +8,12 @@
 }
 
 body {
-  font-family: 'Roboto', 'Times New Roman'; /* Added a specific font as backup */
+  font-family: 'Roboto', 'Times New Roman';
   font-size: 1rem;
   line-height: 1.6;
-  color: #333; /* Added color */
-  background-color: #FF77AA; /* Added background-color */
+  color: #333;
+  background-color: #FF77AA;
+  text-align: center; /* Center the text */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,8 +41,10 @@ nav a {
 }
 
 header, footer, main {
-  margin: 0 auto;
+  margin: 0 auto; /* Center block elements */
   max-width: 60em;
+  text-align: center; /* Center the text */
+}
 }
 
 .food-container {
