@@ -29,16 +29,16 @@ body {
 
 /* Nav */
 nav {
-	text-align: center;
+  text-align: center;
 }
 nav{
-	background-color: hotpink;
-	margin-bottom: 2em;
+  background-color: hotpink;
+  margin-bottom: 2em;
 }
 nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 nav ul li {
   display: inline;
@@ -63,5 +63,9 @@ section {
   margin: 3em auto;
   max-width: 70rem;
   color: white;
+}
+
+footer {
+   text-align: center;
 }
 
