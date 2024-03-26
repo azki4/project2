@@ -20,7 +20,7 @@ body {
   font-family: 'Roboto', 'Times New Roman';
   font-size: 1em;
   line-height: 1.6;
-  background-color: #8b008b;
+  background-color: #d8aad8;
   max-width: 60em;
   margin: 0 auto; /* Center block elements */
   text-align: center; /* Center the text */
@@ -32,7 +32,7 @@ nav {
   text-align: center;
 }
 nav{
-  background-color: hotpink;
+  background-color: #8b008b;
   margin-bottom: 2em;
 }
 nav ul{
@@ -63,7 +63,8 @@ section {
 }
 
 footer {
-   text-align: center;
-   padding: 10px 0;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
 }
 
