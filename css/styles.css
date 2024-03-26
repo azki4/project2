@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* CSS */
 body {
   font-family: 'Roboto', 'Times New Roman';
@@ -10,13 +12,15 @@ body {
 
 nav {
   background-color: #EE82EE; /* Different color for the nav bar */
+  width: 100%;
 }
 
 nav ul {
   list-style-type: none; /* Remove bullet points */
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  float: left; /* Float to achieve horizontal alignment */
 }
 
 nav ul li {
@@ -25,7 +29,7 @@ nav ul li {
 
 nav a {
   color: white;
-  text-decoration: none;
+  text-decoration: none; /* Remove underline */
   font-size: 1.2em;
 }
 
@@ -33,6 +37,7 @@ main {
   max-width: 60em;
   margin: 0 auto; /* Center block elements */
   text-align: center; /* Center the text */
+  position: relative; /* Position to achieve page layout */
 }
 
 .content-box {
@@ -40,4 +45,14 @@ main {
   padding: 1em;
   margin: 1em auto; /* Center the content box */
   max-width: 80%; /* Set a max-width for the content box */
+  position: relative; /* Position to achieve page layout */
+}
+
+/* Style for each job section */
+.resume-section {
+  background-color: #FFFFFF; /* Different color for the job section */
+  padding: 1em;
+  margin: 1em auto; /* Center the job section */
+  max-width: 80%; /* Set a max-width for the job section */
+  position: relative; /* Position to achieve page layout */
 }
