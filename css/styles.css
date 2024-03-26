@@ -1,9 +1,14 @@
 /* CSS */
-h1, h2, h3 {
+h1, h3 {
   font-family: 'Roboto', 'Times New Roman';
   color: black;
   margin-bottom: 20px;
   padding: 0.1em;
+}
+
+h2 {
+  font-family: 'Roboto', 'Times New Roman';
+  color: black;
 }
 
 li {
@@ -58,6 +63,10 @@ section {
   margin: 3em auto;
   max-width: 70rem;
   color: white;
+}
+
+.experience ul {
+  margin-bottom: 1.25em;
 }
 
 .experience h3 {
