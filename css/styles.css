@@ -3,48 +3,35 @@
 /* CSS */
 h1, h2, h3, h4, li {
   font-family: 'Roboto', 'Times New Roman';
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   padding: 0.1em;
 }
 
 li {
-    text-align: left;
+  text-align: left;
 }
 
-body {
+.resume-body {
   font-family: 'Roboto', 'Times New Roman';
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.6;
-  color: #333;
-  background-color: #FF77AA;
-  text-align: center; /* Center the text */
-}
-
-/* Style for each job section */
-.resume-section {
-  background-color: #FFFFFF; /* Different color for the job section */
-  padding: 1em;
-  margin: 1em auto; /* Center the job section */
-  max-width: 80%; /* Set a max-width for the job section */
-  position: relative; /* Position to achieve page layout */
-}
-
-main {
+  background-color: #8b008b;
   max-width: 60em;
   margin: 0 auto; /* Center block elements */
   text-align: center; /* Center the text */
   position: relative; /* Position to achieve page layout */
 }
 
+
 nav {
-  background-color: #9370db; /* Different color for the nav bar */
-  width: 100%;
+  text-align: center;
+  background-color: #5c005c;
+  margin-bottom: 2em
 }
 
 nav ul {
   list-style-type: none; /* Remove bullet points */
   padding: 0;
-  display: flex;
   justify-content: space-around;
   float: left; /* Float to achieve horizontal alignment */
 }
@@ -53,20 +40,12 @@ nav ul {
 nav ul li a {
   color: white;
   text-decoration: none; /* Remove underline */
-  font-size: 1.2em;
-}
-
-
-.content-box {
-  background-color: #FFC0CB; /* Different color for the content box */
-  padding: 1em;
-  margin: 1em auto; /* Center the content box */
-  max-width: 80%; /* Set a max-width for the content box */
-  position: relative; /* Position to achieve page layout */
+  display: inline
+  padding: 1em 2em;
 }
 
 section {
-  background-color: CBC3E3;
+  background-color: #c57fc5;
   padding: 1.5em;
   border-radius: 1em;
   box-shadow: 0.5em 0.5em 2em rgba(0, 0, 0, 0.3);
