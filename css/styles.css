@@ -10,6 +10,15 @@ body {
   text-align: center; /* Center the text */
 }
 
+/* Style for each job section */
+.resume-section {
+  background-color: #FFFFFF; /* Different color for the job section */
+  padding: 1em;
+  margin: 1em auto; /* Center the job section */
+  max-width: 80%; /* Set a max-width for the job section */
+  position: relative; /* Position to achieve page layout */
+}
+
 nav {
   background-color: #EE82EE; /* Different color for the nav bar */
   width: 100%;
@@ -48,11 +57,13 @@ main {
   position: relative; /* Position to achieve page layout */
 }
 
-/* Style for each job section */
-.resume-section {
-  background-color: #FFFFFF; /* Different color for the job section */
-  padding: 1em;
-  margin: 1em auto; /* Center the job section */
-  max-width: 80%; /* Set a max-width for the job section */
-  position: relative; /* Position to achieve page layout */
+section {
+  background-color: CBC3E3;
+  padding: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0.5em 0.5em 2em rgba(0, 0, 0, 0.3);
+  margin: 3em auto;
+  max-width: 70rem;
+  color: white;
 }
+
