@@ -13,7 +13,7 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
+  list-style-type: none; /* Remove bullet points */
   padding: 0;
   display: flex;
   justify-content: center;
@@ -41,4 +41,3 @@ main {
   margin: 1em auto; /* Center the content box */
   max-width: 80%; /* Set a max-width for the content box */
 }
-
