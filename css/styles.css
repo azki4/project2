@@ -21,9 +21,9 @@ body {
   font-size: 1em;
   line-height: 1.6;
   background-color: white;
-  margin: 0 auto; /* Center block elements */
-  text-align: center; /* Center the text */
-  position: relative; /* Position to achieve page layout */
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
 }
 
 /* Nav */
@@ -61,12 +61,12 @@ section {
   color: white;
 }
 
-education p strong {
+education ul {
   margin-bottom: 20px; /* Adjust this value as per your needs */
 }
 
 footer {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
