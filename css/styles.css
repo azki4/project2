@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* CSS */
-h1, h2, h3, h4, li {
+h1, h2, h3, li {
   font-family: 'Roboto', 'Times New Roman';
   color: gray
   margin-bottom: 2em;
@@ -27,7 +27,7 @@ body {
   position: relative; /* Position to achieve page layout */
 }
 
-
+/* Nav */
 nav {
 	text-align: center;
 }
