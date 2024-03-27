@@ -93,7 +93,14 @@ footer {
 
 .food-item:hover, li:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	
 }
+
+img[src="media/img_2664.jpg"], img[src="media/strangerthings.jpg"] {
+    width: 100%; /* This will make the image responsive */
+    height: auto; /* This will maintain the aspect ratio */
+}
+
 
 .food-item img, li img {
     width: 100%;
