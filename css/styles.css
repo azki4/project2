@@ -68,9 +68,11 @@ section {
 #experience h3 {
   margin-bottom: 1.25em;
   color: black;
-  list-style-type: none;
 }
 
+#experience ul {
+  list-style-type: none;
+}
 
 footer {
   text-align: center;
@@ -100,13 +102,13 @@ footer {
 .food-item img {
     width: 200px;
     height: 200px; 
-    object-fit: cover; /* this will ensure that the image covers the full area of the container without stretching */
+    object-fit: cover;
 }
 
 li img {
     width: 200px;
     height: 200px;
-    object-fit: cover; /* this will ensure that the image covers the full area of the container without stretching */
+    object-fit: cover;
 }
 
 
