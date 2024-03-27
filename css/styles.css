@@ -96,19 +96,27 @@ footer {
 	
 }
 
-img[src="media/img_2664.jpg"], img[src="media/strangerthings.jpg"] {
-    width: 100%; /* This will make the image responsive */
-    height: auto; /* This will maintain the aspect ratio */
+.food-item img {
+    width: 200px; /* adjust as needed */
+    height: 200px; /* adjust as needed */
+    object-fit: cover; /* this will ensure that the image covers the full area of the container without stretching */
 }
 
-
-.food-item img, li img {
-    width: 100%;
-    height: auto;
+li img {
+    width: 200px; /* adjust as needed */
+    height: 200px; /* adjust as needed */
+    object-fit: cover; /* this will ensure that the image covers the full area of the container without stretching */
 }
+
 
 .food-item p, li p {
     padding: 15px;
     text-align: center;
+}
+
+
+/* Nav /.food-item img, li img {
+    width: 100%;
+    height: auto;
 }
 
