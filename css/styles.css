@@ -4,11 +4,15 @@ h1, h3 {
   color: black;
   margin-bottom: 20px;
   padding: 0.1em;
+  float: left;
+  position: relative;
 }
 
 h2 {
   font-family: 'Roboto', 'Times New Roman';
   color: black;
+  float: right;
+  position: relative;
 }
 
 li {
@@ -55,6 +59,7 @@ nav ul li a {
   padding: 1em 2em;
 }
 
+/* Section */
 section {
   background-color: #c57fc5;
   padding: 1.5em;
@@ -110,7 +115,6 @@ li img {
     height: 200px;
     object-fit: cover;
 }
-
 
 .food-item p, li p {
     padding: 15px;
